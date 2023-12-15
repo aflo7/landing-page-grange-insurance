@@ -1,0 +1,78 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: center;
+}
+
+.main-wrapper {
+  width: 1200px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  width: 1000px;
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main-img {
+  width: 100%;
+  height: 500px;
+  background-image: url(https://www.grangeinsurance.com/-/media/resources/photos/homepage/22-274_gicom-hero_header1366x600.png);
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-img > div {
+  width: 900px;
+  margin-top: 40px;
+}
+
+#findAnAgencyBtnFilled, #findAnAgencyBtnOutlined {
+  background-color: rgb(42, 113, 49);
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#findAnAgencyBtnOutlined {
+  background-color: white;
+  border: 2px solid rgb(42, 113, 49);
+  color: rgb(42, 113, 49);
+}
+
+#findAnAgencyBtnOutlined:hover,
+#findAnAgencyBtnFilled:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  color: white;
+  width: 400px;
+}
